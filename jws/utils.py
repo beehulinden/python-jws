@@ -13,7 +13,7 @@ else:
 
 def to_bytes_2and3(s):
     if type(s) != binary_type:
-        s = bytes(s, 'UTF-8')
+        s = bytes(s)
     return s
 
 def base64url_decode(input):
